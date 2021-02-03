@@ -97,9 +97,6 @@
 	</nav>
 </header>
 
-<!---Carousel slide principal espacio--->
-<div class="spacenav"></div>
-
 <!---Carousel slide principa imagen--->
 <main>
 	<section class="carousel-section">
@@ -146,6 +143,7 @@
 </div>
 <!---Columna de contenido--->
 <main role="main" class="container">
+
 	<div class="row"> <!---Row (Start)--->
 	  	<div class="col-md-8 blog-main"> <!---1era Columna (Start)--->
 
@@ -322,9 +320,7 @@
 				</div>
 			</div>
 
-<!---Reviews--->
-
-			<div class="mt-4">
+			<div class="mt-4"> <!---Reviews--->
 				<h5>Comentarios (4)</h5> 
 			</div>
 			<hr class="my-2">
@@ -463,19 +459,56 @@
 				</div>
 			</div>
 
-
+			<hr class="my-2"> <!---Input text para comentarios--->
+			<div class="card mt-4 p-4">
+				<h6>Comentá y calificá esta marca</h6>
+				<hr class="my-2">
+				<form>
+					<input class="form-control my-2" type="text" placeholder="Título" required>
+					<div class="form-group my-4">
+						<label for="exampleFormControlTextarea1">Escribí aquí tu comentario sobre la marca</label>
+						<textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Buena calidad de productos..." required></textarea>
+					</div>
+					<div class="my-4"> <!---Rating stars--->
+						<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
+							<path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.283.95l-3.523 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+						</svg>
+						<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
+							<path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.283.95l-3.523 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+						</svg>
+						<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
+							<path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.283.95l-3.523 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+						</svg>
+						<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
+							<path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.283.95l-3.523 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+						</svg>
+						<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star" viewBox="0 0 16 16">
+							<path d="M2.866 14.85c-.078.444.36.791.746.593l4.39-2.256 4.389 2.256c.386.198.824-.149.746-.592l-.83-4.73 3.523-3.356c.329-.314.158-.888-.283-.95l-4.898-.696L8.465.792a.513.513 0 0 0-.927 0L5.354 5.12l-4.898.696c-.441.062-.612.636-.283.95l3.523 3.356-.83 4.73zm4.905-2.767l-3.686 1.894.694-3.957a.565.565 0 0 0-.163-.505L1.71 6.745l4.052-.576a.525.525 0 0 0 .393-.288l1.847-3.658 1.846 3.658a.525.525 0 0 0 .393.288l4.052.575-2.906 2.77a.564.564 0 0 0-.163.506l.694 3.957-3.686-1.894a.503.503 0 0 0-.461 0z"/>
+						</svg>
+					</div>
+					<div class="row">
+						<div class="col-6 form-group">
+							<label for="exampleFormControlInput1">Nombre y Apellido</label>
+							<input class="form-control" type="text" placeholder="Juan Velasquez" required>
+						</div>
+						<div class="col-6 form-group">
+							<label for="exampleFormControlInput1">Correo Electrónico</label>
+							<input type="email" class="form-control" id="exampleFormControlInput1" placeholder="nombre@ejemplo.com" required>
+						</div>
+					</div>
+					<button type="submit" class="btn btn-primary mb-2">Enviar comentario</button>
+				</form>
+			</div>
 		</div> <!---1era Columna (End)--->		
 
-		<aside class="col-md-4 blog-sidebar"> <!---2da Columna (Start)--->
-			
+		<aside class="col-md-4 blog-sidebar"> <!---2da Columna (Start)--->			
 			<div class="p-0 mb-3 bg-white rounded"> <!---Mapa google--->
 				<h4 class="pt-4 pb-2">¿Dónde está?</h4>
 				<div id="map-container-google-9" class="z-depth-1-half map-container-5" style="height: 300px">
 					<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3284.339587864913!2d-58.39739758423695!3d-34.59557346457536!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcca9610e434db%3A0x82805d50f7451061!2sZARA!5e0!3m2!1ses-419!2sar!4v1612027571527!5m2!1ses-419!2sar"
 					frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
 				</div>
-			</div>
-  
+			</div> 
 			<div class="p-0"> <!---Tabla de horarios--->
 		  		<h4 class="pt-4 pb-2">Horarios</h4>				  
 				<div class="bs-example"> <!---Acordion (Start)--->
@@ -543,12 +576,12 @@
 							</div>
 						</div>
 						<div class="card"> <!---2do Acordion--->
-							<div class="card-header" id="headingOne">
+							<div class="card-header" id="headingTwo">
 								<h2 class="mb-0">
-									<button type="button" class="btn collapsed" data-toggle="collapse" data-target="#collapseOne">Palermo (Av. Santa Fe)</button>									
+									<button type="button" class="btn collapsed" data-toggle="collapse" data-target="#collapseTwo">Palermo (Av. Santa Fe)</button>									
 								</h2>
 							</div>
-							<div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
+							<div id="collapseTwo" class="collapse show" aria-labelledby="headingTwo" data-parent="#accordionExample">
 								<div class="card-body">
 									<a href="#">
 										<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-geo-alt-fill" viewBox="0 0 16 16">
@@ -669,12 +702,9 @@
 					</div>
 				</div> <!---Acordion (End)--->
 			</div> <!---Tabla de horarios--->			
-
-		</aside> <!---2da Columna (End)--->
-		 
-  
+		</aside> <!---2da Columna (End)--->		  
 	</div> <!---Row (End)--->
-  
+
 </main>
 
 <!-- Footer -->

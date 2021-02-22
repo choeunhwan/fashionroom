@@ -6,6 +6,10 @@
 	.navbar .nav-item:hover .dropdown-menu{ transition: .3s; opacity:1; visibility:visible; top:100%; transform: rotateX(0deg); }
 }
 
+.margin-superior {
+    margin-top: 5rem;
+}
+
 .boton {
     display: inline-block;
     font-weight: 400;
@@ -193,7 +197,6 @@
     max-width: 100%;
     max-height: 100%;
 }
-
 
 //import//
 
